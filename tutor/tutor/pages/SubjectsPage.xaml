@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tutor.pages.SubjectsPage"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             
+             NavigationPage.HasNavigationBar="True"
+             Title="Subjects">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <RelativeLayout>
+                <StackLayout x:Name="mainStack" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">
+                    <!--Subject c# code goes here-->
+
+                </StackLayout>
+            </RelativeLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+
+    <!--
+    <TabbedPage.Children>
+        <NavigationPage Title="Subject1">
+            <x:Arguments>
+                <pages:Subject1Page/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Subject 2">
+            <x:Arguments>
+                <pages:Subject2Page/>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+    -->
+</ContentPage>
+   

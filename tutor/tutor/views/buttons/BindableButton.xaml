@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Button xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tutor.views.buttons.BindableButton"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            mc:Ignorable="d"
+        Text="{Binding Text}"
+        IsVisible="{Binding IsVisible}"
+        IsEnabled="{Binding IsEnabled}"
+        Command="{Binding Command}"/>
+             
